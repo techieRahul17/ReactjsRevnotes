@@ -1,0 +1,20 @@
+.button{
+    background-color: aquamarine;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    accent-color: aquamarine;
+    cursor: pointer;
+}
+.button:hover{
+    background-color: aquamarine;
+    color: white;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    accent-color: aquamarine;
+    cursor: pointer;
+    box-shadow: crimson;
+}
