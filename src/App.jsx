@@ -8,11 +8,12 @@ import UserGreeting from "./UserGreeting.jsx";
 
 import Button from "./Button.jsx";
 import ProfilePicture from "./ProfilePicture.jsx";
+import MyComponent from "./MyComponent.jsx";
 function App() {
     return (
         //We need to have atleast a set of empty brackets to enclose the components to prevent from errors
         <>
-        <ProfilePicture></ProfilePicture>
+        <ProfilePicture ></ProfilePicture>
         <Button />
         <Header />
         <Food />
