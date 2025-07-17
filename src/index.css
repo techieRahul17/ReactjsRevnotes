@@ -96,3 +96,47 @@ body{
   accent-color: aquamarine;
   font-weight: bold;
 }
+.counter{
+  font-family: Crimson;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: large;
+  border: crimson;
+}
+.counter:hover{
+  border:1px crimson;
+  border-radius: 10px;
+  padding: 5px;
+  accent-color: aquamarine;
+  font-weight: bold;
+}
+.inc{
+  font-family: Crimson;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: large;
+}
+.dec{
+  font-family: Crimson;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: large;
+}
+.res{
+  font-family: Crimson;
+  text-align: center;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 5px;
+  font-size: large;
+}

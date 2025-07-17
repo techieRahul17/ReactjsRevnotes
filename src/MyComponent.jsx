@@ -10,8 +10,12 @@ export default function MyComponent(){
     const incAge=()=>{
         setAge(17);
     }
+    function handleNameChange(e){
+        setName(e.target.value);
+    }
     return(
         <div>
+            <input onChange={handleNameChange} value={name} placeholder="Name"/>
             <p>Name:{name}</p>
             <button onClick={updateName}>Set Name</button>
 
